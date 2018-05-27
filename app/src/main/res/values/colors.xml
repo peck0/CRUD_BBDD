@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="verdeTransparente">#c683ca64</color>
+    <color name="rojoTransparente">#a6f25555</color>
+    <color name="naranjaSuave">#bdf1ce33</color>
+    <color name="gris">#6b6868</color>
+    <color name="color_de_fondo">#f9f2e4</color>
+</resources>

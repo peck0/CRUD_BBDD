@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Drain Collector</string>
+    <string name="nombre">Name</string>
+    <string name="codigo">Id</string>
+    <string name="apellido">Last Name</string>
+    <string name="billetes_de_mil">Thousand bills</string>
+    <string name="billetes_de_quinientos">Five hundred bills</string>
+    <string name="billetes_de_doscientos">Two hundred bills</string>
+    <string name="billetes_de_cien">A hundred bills</string>
+    <string name="billetes_de_cincuenta">Fifty bills</string>
+    <string name="monto_sangria_texto">Total amount</string>
+    <string name="nueva_sangira">New drain</string>
+    <string name="nueva_sangria">New drain</string>
+
+
+</resources>

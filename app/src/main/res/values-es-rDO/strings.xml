@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Colector de Sangrías</string>
+    <string name="nombre">Nombre</string>
+    <string name="codigo">Codigo</string>
+    <string name="apellido">Apellido</string>
+    <string name="billetes_de_mil">Billetes de mil</string>
+    <string name="billetes_de_quinientos">Billetes de quinientos</string>
+    <string name="billetes_de_doscientos">Billetes de doscientos</string>
+    <string name="billetes_de_cien">Billetes de cien</string>
+    <string name="billetes_de_cincuenta">Billetes de cincuenta</string>
+    <string name="monto_sangria_texto">Monto total</string>
+    <string name="nueva_sangria">Nueva sangria</string>
+</resources>

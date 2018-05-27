@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.infante.crud_bbdd.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1.0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/id"
+            style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Introduzca el ID"
+            android:inputType="number"
+            android:singleLine="true"
+            app:layout_constraintBottom_toTopOf="@+id/nombre"
+            app:layout_constraintStart_toStartOf="@+id/nombre"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/nombre"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Introduzca el nombre"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            app:layout_constraintBottom_toTopOf="@+id/apellido"
+            app:layout_constraintStart_toStartOf="@+id/apellido"
+            app:layout_constraintTop_toBottomOf="@+id/id" />
+
+        <EditText
+            android:id="@+id/apellido"
+            style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Introduzca el apellido"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nombre" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="0.0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="3.0dip"
+                android:paddingRight="6.0dip">
+
+                <TableRow
+                android:id="@+id/tablerow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/limpiar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Limpiar"
+                        android:layout_weight="1.0"/>
+                    <Button
+                        android:id="@+id/nueva_sangria"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nueva_sangria"
+                        android:layout_weight="1.0"/>
+
+                    <Button
+                        android:id="@+id/buscar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="buscar"
+                        android:layout_weight="1.0"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/insertar"
+                        android:background="@color/verdeTransparente"
+                        android:text="insertar"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"/>
+
+                    <Button
+                        android:id="@+id/actualizar"
+                        android:background="@color/naranjaSuave"
+                        android:text="actualizar"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"/>
+
+                    <Button
+                        android:id="@+id/borrar"
+                        android:background="@color/rojoTransparente"
+                        android:text="borrar"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"/>
+                </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>
